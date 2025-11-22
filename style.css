@@ -1,0 +1,152 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+    background: #ffffff;
+    color: #111;
+    line-height: 1.7;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    padding: 18px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-logo {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nav-links a {
+    margin-left: 22px;
+    text-decoration: none;
+    font-size: 16px;
+    color: #333;
+    transition: 0.2s;
+}
+
+.nav-links a:hover {
+    color: #000;
+    font-weight: 500;
+}
+
+/* Intro */
+.top-section {
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.profile-img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 25px rgba(0,0,0,0.18);
+}
+
+.top-title {
+    font-size: 42px;
+    font-weight: 600;
+}
+
+.top-subtitle {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #555;
+}
+
+/* Sections */
+.section {
+    width: 80%;
+    max-width: 900px;
+    margin: 50px auto;
+}
+
+.section-title {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    border-left: 5px solid #000;
+    padding-left: 12px;
+}
+
+.section-text {
+    font-size: 17px;
+    color: #444;
+}
+
+/* Education */
+.edu-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.edu-table th,
+.edu-table td {
+    border: 1px solid #d0d0d0;
+    padding: 12px;
+    font-size: 16px;
+}
+
+/* Skills */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 18px;
+}
+
+.skill-box {
+    background: #f7f7f7;
+    border: 1px solid #e5e5e5;
+    padding: 18px;
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 500;
+    transition: 0.2s;
+}
+
+.skill-box:hover {
+    background: #efefef;
+}
+
+/* Cards */
+.exp-card,
+.project-card {
+    background: #fafafa;
+    padding: 22px;
+    border-radius: 12px;
+    margin-bottom: 18px;
+    border: 1px solid #eee;
+    transition: 0.2s;
+}
+
+.exp-card:hover,
+.project-card:hover {
+    transform: translateY(-3px);
+    background: #f2f2f2;
+}
+
+/* Footer */
+footer {
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 22px;
+    margin-top: 40px;
+    font-size: 15px;
+}
